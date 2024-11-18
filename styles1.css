@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f3f4f6, #e8f5e9);
+}
+
+/* Navbar */
+header .nav-link {
+    font-weight: bold;
+}
+
+/* Admin Section */
+#admin-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#register-btn, #randomize-btn {
+    transition: all 0.3s ease;
+}
+
+#register-btn:hover {
+    background-color: #3e8e41;
+}
+
+#randomize-btn:hover {
+    background-color: #0069d9;
+}
+
+/* User List Section */
+.user-card {
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.user-card img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Selected User Card */
+.selected-user-card img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.selected-user-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+.ftext {
+    color: rgb(105, 76, 2);
+    font-weight: 500;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 30%;
+    height: auto;
+}
+
+.logo-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
